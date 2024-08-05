@@ -1,0 +1,27 @@
+{
+  "name": "unit_testing_frameworks_in_javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "c8": "^10.1.2",
+    "chai": "^5.1.1",
+    "husky": "^9.1.4",
+    "mocha": "^10.7.0",
+    "mochawesome": "^7.1.3"
+  }
+}
